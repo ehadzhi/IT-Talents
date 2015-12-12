@@ -44,8 +44,8 @@ public class GSM {
 
 	void printInfoForTheLastIncomingCall() {
 		if (this.lastIncomingCall != null) {
-			System.out.println(this.lastOutgoingCall.caller.simMobileNumber + " called you for "
-					+ this.lastOutgoingCall.duration + " minutes.");
+			System.out.println(this.lastIncomingCall.caller.simMobileNumber + " called you for "
+					+ this.lastIncomingCall.duration + " minutes.");
 		}
 	}
 
